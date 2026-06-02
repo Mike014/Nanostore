@@ -1,0 +1,17 @@
+# Binaries
+*.exe
+*.o
+
+# Data / WAL logs
+data/*.log
+data/*.log.tmp
+
+# IDE
+.vscode/
+
+# Stale artifacts
+nul
+tests/nul
+
+# Extra files
+CODE_REVIEW.md
